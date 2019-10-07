@@ -62,5 +62,6 @@ What is your name?
 +   <li *ngFor="let f of friends">{{f.name}}, age: {{f.age}}</li>
 +   </ul>
 ```
-In line 6 we've added an `h4` html title tag, to display a title that will also include how many friends we have. In this case it'll show `These are our friends (2)`
-By placing the `*ngFor` tag in the `li` html tag, we ask Angular to repeat the `li` tag for every item in the array (person in the friends array)
+In line 6 we've added an `h4` html title tag, to display a title that will also include how many friends we have. In this case it'll show `These are our friends (2)`.
+By placing the `*ngFor` tag in the `li` html tag, we ask Angular to repeat the `li` tag for every item in the array (person in the friends array).
+*ngFor="let f of friends" is equivalent to for(var f in friends) in c#
